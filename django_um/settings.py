@@ -119,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/' #Usado durante o desenvolvimento
-STATIC_ROOT = Path.joinpath(BASE_DIR, 'staticfiles') #Produção
+STATIC_ROOT = Path.joinpath('staticfiles') #Produção
 
 LOGOUT_REDIRECT_URL = 'index'
 
