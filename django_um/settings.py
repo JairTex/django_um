@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ucw97lnlgxesyzogj++zl3(r*foofjv=52ceij^iu)$_btjjmh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*'] #Publicar no Heroku, então deixamos o '*'
+ALLOWED_HOSTS = ['django-jt.herokuapp.com'] #Publicar no Heroku, então deixamos o '*'
                         #Se fosse um site pub real seria 'www.nomedosite.com'
 
 
